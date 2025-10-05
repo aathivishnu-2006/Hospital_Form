@@ -1,17 +1,16 @@
- Hospital_Form
+# React + Vite
 
-A React + Tailwind CSS application that replicates a hospital/clinic patient appointment form.
-Users can fill in details such as patient info, doctor selection, appointment priority, and payment details.
-On submission, the form validates required fields and displays the collected data inside a modal popup.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Features:
+Currently, two official plugins are available:
 
-Select Date and Time Range Capture Patient Details (Name, Gender, Email, Phone) Choose Doctor Set Appointment Priority and Consultant Type Required field validation Enter Case ID, Encounter ID, Payment Mode, Payment Status Data preview in a modal popup after saving Styled with Tailwind CSS for modern UI Deployable on Netlify
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🛠️ Tech Stack 
-React Frontend library 
-Tailwind CSS –Styling 
-Netlify – Deployment
+## React Compiler
 
-<img width="870" height="738" alt="image" src="https://github.com/user-attachments/assets/eace1d93-040c-443e-bbab-b3e3458b0167" />
+The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
